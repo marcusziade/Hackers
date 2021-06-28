@@ -134,6 +134,7 @@
 		241C32DD24950C05000876DC /* PostTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTitleView.swift; sourceTree = "<group>"; };
 		241E4036253B103100E3ED18 /* Hackers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackers.entitlements; sourceTree = "<group>"; };
 		243271941F95EDA9008196DB /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		24384B58268A56BF0077610B /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		245345EC22466EA8001AF1CE /* HackersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245345EE22466EA8001AF1CE /* HackersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackersUITests.swift; sourceTree = "<group>"; };
 		245345F022466EA8001AF1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -285,6 +286,14 @@
 				2457F04324696E9400F3E7A4 /* HackersKit */,
 			);
 			path = "Shared Frameworks";
+			sourceTree = "<group>";
+		};
+		24384B57268A56A40077610B /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				24384B58268A56BF0077610B /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 		245345ED22466EA8001AF1CE /* HackersUITests */ = {
@@ -458,6 +467,7 @@
 		24F39F7C18AFB1150055F8DC = {
 			isa = PBXGroup;
 			children = (
+				24384B57268A56A40077610B /* ci_scripts */,
 				24F39F8E18AFB1150055F8DC /* App */,
 				24CE5FF119434E0B009D2677 /* Assets */,
 				241C32DB24950AB3000876DC /* Tests */,
